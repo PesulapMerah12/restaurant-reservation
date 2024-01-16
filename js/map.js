@@ -2,7 +2,7 @@ let map;
 
 async function initMap() {
 
-  const position = { lat: -8.175507, lng: 115.016893 };
+  const position = { lat: 52.237049, lng: 21.017532 };
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 

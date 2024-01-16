@@ -88,6 +88,10 @@ body, html {
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    background-image: url("../images/tampakdepan.jpg");
+}
+
 footer{
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -236,14 +240,18 @@ h1{
 }
 
 /*Contact Section*/
-#contact {
+#contact {/* Center the section horizontally */
     padding: var(--sectionPadding);
-  }
+}
   
   .contact {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
   }
   
   .contact-form div {
@@ -275,7 +283,7 @@ h1{
   .btn-submit {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    background-color: var(--primaryIconColor);
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -294,23 +302,10 @@ h1{
     margin-bottom: 2.5rem;
   }
   
-  .contact-item-icon {
-    background: var(--thirdBackgroundColor);
-    width: 53px;
-    height: 53px;
-    border-radius: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .contact-item-icon svg {
     fill: var(--primaryIconColor);
   }
   
-  .contact-item-detail h4 {
-    margin-bottom: 0.6rem;
-  }
 
 
   
@@ -330,32 +325,11 @@ h1{
     fill: #000;
   }
 
-  #map{
-    order: 5px solid;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  }
-
-
-  #btn-div{
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  #reserve-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 25px; /* Increased padding for a larger button */
+  h4{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px; /* Increased font size for larger text */
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-}
+    font-family: "Roboto", sans-serif;
+    size: 100px;
+  }
 
-#reserve-button:hover {
-    background-color: #45a049;
-}
+
+

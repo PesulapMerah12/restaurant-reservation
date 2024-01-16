@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/reserve.js"></script>
+    <title>Reservation</title>
+</head>
+<body>
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="reserve.html">Make Reservation</a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="menu.html">See our Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h4>Restaurant Reservation</h4>
+
+    <section id="contact">
+        <div class="contact main-container">
+            <div class="contact-left">
+                <form action="/" method="POST" class="contact-form">
+                    <div>
+                        <input type="text" placeholder="Full Name" id="fullname" />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Phone Number" id="phone" />
+                    </div>
+                    <div>
+                        <input type="date" placeholder="Date" id="datepick" />
+                    </div>
+                    <div>
+                        <button class="btn-submit" onclick="Reserve()">Make a Reservation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
